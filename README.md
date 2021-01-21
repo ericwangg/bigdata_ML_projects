@@ -74,7 +74,7 @@ Textbooks **"End-to-End Machine Learning Project" of *Hands-On Machine Learning 
    - All 3 embeddings visualized with how positive and negative words are spreaded throughout 2D space. 
    - Multiple models saved, best model reloaded and tested
    - Final accuracy = 90.61%
-8. **COVID Testing Kit - Produce a classifier that has 100% recall but 70% precision. Idea is to focus on having perfect precision so as to not miss a single positive COVID case, but only 70% recall such that it is okay to have false positives. Fake data was generated for this exercise.
+8. **COVID Testing Kit** - Produce a classifier that has 100% recall but 70% precision. Idea is to focus on having perfect precision so as to not miss a single positive COVID case, but only 70% recall such that it is okay to have false positives. Fake data was generated for this exercise.
    - Data taken in from .csv, parsed, plotted. Numerical vs. categorical data prepared by pipelining, categorical is passed through OneHotEncoder. Data points split by training, validation, testing (5000, 2500, 2500)
    - RandomForestClassifier used to report the importance of each attribute
    - Trained ExtraTreesClf, SVC, RandomForestClf into Voting Classifier. ROC curves, precision vs. recall  plotted, ROC AUC scores calculated. Using recall = 1, found the precision values to find highest performing model.
